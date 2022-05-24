@@ -19,7 +19,7 @@ public class Shelter {
         return this.dogs * 50 * 3 * this.days;
     }
 
-    public int overalCost() {
+    public int overallCost() {
         return (3 * this.days * (this.cats + this.dogs)) * costForItem;
     }
 }

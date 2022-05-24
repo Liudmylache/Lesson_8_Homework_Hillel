@@ -31,6 +31,6 @@ public class Main {
         System.out.println("For " + numberOfCats + " cat(s) you need " + shelter.eatPerCats() + " g cat food "
                 + " for " + numberOfDays + " day(s)");
 
-        System.out.println("Overall cost of the shelter maintenance is " + "$" + shelter.overalCost());
+        System.out.println("Overall cost of the shelter maintenance is " + "$" + shelter.overallCost());
     }
 }
